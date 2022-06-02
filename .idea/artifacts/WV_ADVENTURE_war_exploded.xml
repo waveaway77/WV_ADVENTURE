@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WV_ADVENTURE:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WV_ADVENTURE_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WV_ADVENTURE/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WV_ADVENTURE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

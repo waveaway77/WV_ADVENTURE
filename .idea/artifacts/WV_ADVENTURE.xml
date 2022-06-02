@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WV_ADVENTURE">
+    <output-path>$PROJECT_DIR$/out/artifacts/WV_ADVENTURE</output-path>
+    <root id="archive" name="WV_ADVENTURE.war" />
+  </artifact>
+</component>
