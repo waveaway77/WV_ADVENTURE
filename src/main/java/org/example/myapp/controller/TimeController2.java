@@ -1,7 +1,7 @@
 package org.example.myapp.controller;
 
-import com.myclock.common.exception.ClockException;
-import com.myclock.myapp.model.Mytime;
+import org.example.common.exception.ClockException;
+import org.example.myapp.model.Mytime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;

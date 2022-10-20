@@ -1,6 +1,6 @@
 package org.example.common.exception;
 
-import com.myclock.common.model.ErrorResp;
+import org.example.common.model.ErrorResp;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
