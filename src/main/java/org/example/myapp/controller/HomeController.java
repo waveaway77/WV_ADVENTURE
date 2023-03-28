@@ -20,7 +20,7 @@ public class HomeController {
     public String home(Locale locale, Model model) {
 
 		String str = "";
-		
+
         logger.info("[HomeController] Welcome home! The client locale is {}.", locale);
 
         Date date = new Date();

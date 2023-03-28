@@ -1,2 +1,3 @@
 rootProject.name = 'WV_ADVENTURE'
+include 'WV_ALGORITHM'
 

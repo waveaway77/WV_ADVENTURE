@@ -30,9 +30,11 @@ public class Basic {
         DateTimeFormatter formatter;
 
         //LocalDateTime > String
-        LocalDateTime localDt = LocalDateTime.now(); //2022-08-25T18:25:26.834
-        formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmssSSS");
-        String formedDt = localDt.format(formatter); //20220825182526
+//        LocalDateTime localDt = LocalDateTime.now(); //2022-08-25T18:25:26.834
+//        formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmssSSS");
+//        String formedDt = localDt.format(formatter); //20220825182526
+        String formedDt = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmssSSS")); //20220825182526
+
 
         //String > LocalDateTime
         formatter = DateTimeFormatter.ofPattern("yyyy년 MM월 dd일 HH시 mm분 ss초");
