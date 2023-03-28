@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ea48c97-e446-454f-aa04-aa7af6417532" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/myapp/controller/TimeController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/myapp/controller/TimeController2.java" afterDir="false" />
+    <list default="true" id="1ea48c97-e446-454f-aa04-aa7af6417532" name="Changes" comment="commit 230328">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/myapp/service/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +52,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -238,7 +239,9 @@
       <workItem from="1677194309588" duration="151000" />
       <workItem from="1677227170467" duration="31000" />
       <workItem from="1679270856652" duration="4000" />
-      <workItem from="1679963977742" duration="240000" />
+      <workItem from="1679963977742" duration="426000" />
+      <workItem from="1679965487855" duration="2000" />
+      <workItem from="1679980618502" duration="450000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1679964028978</created>
@@ -247,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679964028978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit 230328">
+      <created>1679964233022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679964233022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +276,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit 230328" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 230328" />
   </component>
 </project>
