@@ -27,6 +27,8 @@ public class TimeController2 {
 		mt.setNow(date.toString());
 		logger.info("[TimeController2] mt is... {}", mt.toString());
 
+		String str = "";
+
 		/* 2. return result */
 		return mt;
 	}
