@@ -1,4 +1,4 @@
-package org.example.myapp.service;
+package org.example.etc.variable;
 
 public class Variable { // 클래스영역
     // 멤버변수

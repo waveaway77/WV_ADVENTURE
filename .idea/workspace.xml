@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ea48c97-e446-454f-aa04-aa7af6417532" name="Changes" comment="commit 230328">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/myapp/service/Variable.java" afterDir="false" />
+    <list default="true" id="1ea48c97-e446-454f-aa04-aa7af6417532" name="Changes" comment="변수의영역">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/etc/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/etc/variable/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/etc/variable/PrepaidCardModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/myapp/service/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/etc/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/myapp/service/Basic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/etc/Basic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/myapp/service/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/etc/variable/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/myapp/service/todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/etc/todo.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +104,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/etc" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.myapp.controller" />
@@ -241,7 +251,7 @@
       <workItem from="1679270856652" duration="4000" />
       <workItem from="1679963977742" duration="426000" />
       <workItem from="1679965487855" duration="2000" />
-      <workItem from="1679980618502" duration="450000" />
+      <workItem from="1679980618502" duration="4187000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1679964028978</created>
@@ -257,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679964233022</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="변수의영역">
+      <created>1679981084153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679981084153</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +294,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="commit 230328" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 230328" />
+    <MESSAGE value="변수의영역" />
+    <option name="LAST_COMMIT_MESSAGE" value="변수의영역" />
   </component>
 </project>

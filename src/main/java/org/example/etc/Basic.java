@@ -1,4 +1,4 @@
-package org.example.myapp.service;
+package org.example.etc;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
