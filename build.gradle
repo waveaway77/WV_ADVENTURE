@@ -3,7 +3,7 @@ plugins {
     id 'war'
 }
 
-group 'kmi.hc.hops.api'
+group 'leejy.myapp.api'
 compileJava.options.encoding = 'UTF-8'
 sourceCompatibility = 8
 version '1.0-SNAPSHOT'
