@@ -1,0 +1,60 @@
+
+/* 날짜 표기 */
+yyyyMMddHHmmss
+HH : 0-23 (일반적인 24시간 표기)
+kk : 1-24
+KK : 0-11
+hh : 1-12
+
+java8 이후의 날짜 계산
+java.time.LocalDateTime : https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html
+java.time.format.DateTimeFormatter : https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
+
+/* jdk & jre */
+java 1.8.x(버전명) == java8(공식이름) 는 jdk1.8을 쓴다.
+jdk6은 Java SE 6를 위한 Java Development Kit 6이다.
+The internal version number of the software components that make up JDK 6 is "1.6.x"
+"JDK 1.6" doesn't exist, strictly speaking, but is usually written to refer to "JDK 6"
+"Java 1.6" doesn't exist, strictly speaking, but is usually written to refer to "Java SE 6"
+
+/*  */
+배열이란? 인덱스를 가진 데이터의 집합. 메모리에 연속되어 저장됨.
+리스트란? 인덱스 없이 순차적으로 저장된 데이터의 집합. 메모리에 분산되어 저장됨.
+
+//크기 할당 & 초기화 없이 배열 참조변수만 선언
+        int[] arr;
+        int arr[];
+
+//선언과 동시에 배열 크기 할당
+        int[] arr = new int[5];
+
+//선언과 동시에 배열의 크기 지정 및 값 초기화
+        int[] arr = {1,2,3,4,5}
+        int arr = new int[] {1,2,3,4,5};
+
+        ArrayList<Integer> integers1 = new ArrayList<Integer>(); // 타입 지정
+        ArrayList<Integer> integers2 = new ArrayList<>(); // 타입 생략 가능
+        ArrayList<Integer> integers3 = new ArrayList<>(10); // 초기 용량(Capacity) 설정
+        ArrayList<Integer> integers4 = new ArrayList<>(integers1); // 다른 Collection값으로 초기화
+        ArrayList<Integer> integers5 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5)); // Arrays.asList()
+
+
+/* boolean */
+Boolean의 기본값은 null
+boolean의 기본값은 flase
+bool > String : String.valudeOf(bool)
+
+//
+동등비교연산자(==) : 두 비교 대상의 저장 위치가 같은가, 원시형 데이터(자료형, Boolean)
+.equals() : 두 비교 대상의 데이터의 내용이 같은가, 비원시형 데이터(String, Array, File ...)
+
+//
+java 객체의 메모리 주소 .hashCode()
+java 객체의 자료형 확인 객체.getClass().getName()
+
+//continue, break
+break : 해당 조건문 블록 & 그 밖의 반복문 자체를 탈출
+continue : 해당 조건문 블록 탈출하여 아래 실행문 스킵(반복문의 끝으로 이동하여), 다음 반복문 실행절차를 수행
+            for : 증감식으로 이동
+            while : 조건식으로 이동
+
