@@ -9,9 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ea48c97-e446-454f-aa04-aa7af6417532" name="Changes" comment="intelliJ spring mvc -&gt; sts spring mvc 구조로 전환">
+    <list default="true" id="1ea48c97-e446-454f-aa04-aa7af6417532" name="Changes" comment="@RequestParam의 기본값 메모">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/exception/controller/HomeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/exception/controller/HomeExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/exception/model/ExceptionCodeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/exception/vo/ResultCdVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/util/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/util/Date.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/util/Hashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/util/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/util/Standard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/model/StrClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/myapp/controller/SimpleMvcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/myapp/controller/SimpleMvcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/exception/ClockError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/exception/ClockException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/exception/ClockExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/model/ErrorResp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +71,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,7 +101,6 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -100,8 +112,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/kmidev/repository/WV_ADVENTURE/web",
-    "project.structure.last.edited": "Facets",
+    "last_opened_file_path": "/Users/kmidev/repository/WV_ADVENTURE/src/main/java/leejy/myapp/api/common",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30574712",
     "settings.editor.selected.configurable": "com.nasller.CodeGlancePro",
@@ -110,23 +122,52 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/" />
+      <recent name="$PROJECT_DIR$/src/main/java/leejy/myapp/api/common/model" />
       <recent name="$PROJECT_DIR$/web" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/WEB-INF/spring" />
       <recent name="$PROJECT_DIR$/src/main/WEB-INF/views" />
-      <recent name="$PROJECT_DIR$/src/main/WEB-INF/spring/appServlet" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.myapp.controller" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leejy.myapp.api.common.util" />
+      <recent name="leejy.myapp.api.common.exception.vo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.79">
+  <component name="RunManager" selected="Gradle.TestClassTest.testDoHashing (1)">
+    <configuration name="TestClassTest.testDoHashing (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.playground.TestClassTest.testDoHashing&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="WV_ADVENTURE [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -202,27 +243,6 @@
         <option name="taskNames">
           <list>
             <option value="jar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="WV_ADVENTURE [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="war" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -428,20 +448,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.TestClassTest.testDoHashing (1)" />
       <item itemvalue="Gradle.WV_ADVENTURE [buildDependents]" />
       <item itemvalue="Gradle.WV_ADVENTURE [jar]" />
-      <item itemvalue="Gradle.WV_ADVENTURE [war]" />
       <item itemvalue="Gradle.WV_ADVENTURE [build]" />
       <item itemvalue="Gradle.WV_ADVENTURE [clean]" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.79" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestClassTest.testDoHashing (1)" />
         <item itemvalue="Gradle.WV_ADVENTURE [build]" />
         <item itemvalue="Gradle.WV_ADVENTURE [clean]" />
         <item itemvalue="Gradle.WV_ADVENTURE [buildDependents]" />
         <item itemvalue="Gradle.WV_ADVENTURE [jar]" />
-        <item itemvalue="Gradle.WV_ADVENTURE [war]" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +492,11 @@
       <workItem from="1679980618502" duration="4349000" />
       <workItem from="1680483958403" duration="3364000" />
       <workItem from="1680487669768" duration="209000" />
-      <workItem from="1680487888030" duration="11114000" />
+      <workItem from="1680487888030" duration="13005000" />
+      <workItem from="1681254507507" duration="327000" />
+      <workItem from="1681454333085" duration="23000" />
+      <workItem from="1681454368079" duration="890000" />
+      <workItem from="1681773057710" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1679964028978</created>
@@ -509,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680506529944</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="@RequestParam의 기본값 메모">
+      <created>1680508635072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680508635072</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,6 +564,7 @@
     <MESSAGE value="변수의영역" />
     <MESSAGE value="scanner" />
     <MESSAGE value="intelliJ spring mvc -&gt; sts spring mvc 구조로 전환" />
-    <option name="LAST_COMMIT_MESSAGE" value="intelliJ spring mvc -&gt; sts spring mvc 구조로 전환" />
+    <MESSAGE value="@RequestParam의 기본값 메모" />
+    <option name="LAST_COMMIT_MESSAGE" value="@RequestParam의 기본값 메모" />
   </component>
 </project>
